@@ -58,7 +58,7 @@ def run_alexa():
     elif 'jokes' in command:
         talk(pyjokes.get_jokes())
     elif 'weather' in command:
-        api_key = "b49fc337dde81490958f556094103567"
+        api_key = "***creat_own_api_key_here***"
         base_url = " http://api.openweathermap.org/data/2.5/weather?"
         city_name = "Bengaluru"
         complete_url = base_url + "appid=" + api_key + "&q=" + city_name
